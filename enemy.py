@@ -1,3 +1,5 @@
+from constants import *
+
 class Enemy:
     def __init__(self, path, speed_frames=60):
         self.path = path
