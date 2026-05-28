@@ -3,6 +3,7 @@ import math
 from tower import *
 from projectile import *
 from enemy import *
+from constants import *
 
 class GameModel:
     def __init__(self):
