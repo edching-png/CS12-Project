@@ -1,5 +1,7 @@
 import math
 
+from constants import *
+
 class Projectile:
     def __init__(self, x, y, angle, speed=2.4):
         self.x = x
