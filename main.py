@@ -3,11 +3,7 @@ import math
 
 from model import *
 from view import *
-
-CELL_SIZE = 16
-GRID_ROWS = 16
-GRID_COLS = 16
-FPS = 30
+from constants import *
 
 class GameController:
     def __init__(self, model, view):
