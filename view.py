@@ -1,6 +1,8 @@
 import pyxel
 import math
 
+from constants import *
+
 class GameView:
     def __init__(self, model):
         self.model = model
