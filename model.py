@@ -1,3 +1,9 @@
+import math
+
+from tower import *
+from projectile import *
+from enemy import *
+
 class GameModel:
     def __init__(self):
         self.enemies = []
