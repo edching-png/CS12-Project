@@ -1,3 +1,5 @@
+from constants import *
+
 class Tower:
     def __init__(self, col, row):
         self.x = col * CELL_SIZE + CELL_SIZE // 2
