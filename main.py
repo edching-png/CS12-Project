@@ -1,6 +1,9 @@
 import pyxel
 import math
 
+from model import *
+from view import *
+
 CELL_SIZE = 16
 GRID_ROWS = 16
 GRID_COLS = 16
