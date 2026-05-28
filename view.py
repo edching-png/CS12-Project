@@ -1,3 +1,5 @@
+import math
+
 class GameView:
     def __init__(self, model):
         self.model = model
